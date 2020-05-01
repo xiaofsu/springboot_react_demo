@@ -4,4 +4,4 @@ springboot_react_demo
 
 The SpringBoot And React Demo。
 
-Look [This](https://www.xiaofsu.com/archives/springboot_react_demo)
+Look [This](https://www.xiaofsu.com/archives/springbootreactdemo)
