@@ -38,4 +38,19 @@ public class ReactDemoController {
         return this.reactDemoService.queryAllByLimit(offset,limit);
     }
 
+    @PostMapping("addValue")
+    public ReactDemo addValue(ReactDemo reactDemo){
+        return this.reactDemoService.insert(reactDemo);
+    }
+
+    @PostMapping("delValue")
+    public boolean delValue(Integer id){
+        return this.reactDemoService.deleteById(id);
+    }
+
+    @PostMapping("updateValue")
+    public ReactDemo updateValue(ReactDemo reactDemo){
+        return this.reactDemoService.update(reactDemo);
+    }
+
 }
